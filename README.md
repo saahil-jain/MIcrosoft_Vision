@@ -9,9 +9,6 @@
   * [Downloading Docker](#downloading-docker)
   * [Proximity Detection Model](#proximity-detection-model)
     * [Prerequisites for Proximity Detection Model](#prerequisites-for-proximity-detection-model)
-    * [Steps to Train Proximity Detection Model](#steps-to-train-proximity-detection-model)
-        * [Setting Up Data for Proximity Detection Model](#setting-up-data-for-proximity-detection-model)
-        * [Training Proximity Detection Model](#training-proximity-detection-model)
     * [Steps to Run Proximity Detection Model](#steps-to-run-proximity-detection-model)
         * [Run Proximity Detection Model Server as a Container](#run-proximity-detection-model-server-as-a-container)
         * [Run Proximity Detection Model Server as a Process](#run-proximity-detection-model-server-as-a-process)
@@ -54,19 +51,6 @@ We built two computer vision models for the following problems:
         ```
             pip install requirements.txt
         ```
-    * #### Steps to Train Proximity Detection Model
-        * #### Setting Up Data for Proximity Detection Model
-            When in the vision_models/proximity_detection directory,
-            Enter the following line into the terminal -
-            ```
-                pip install requirements.txt
-            ```
-        * #### Training Proximity Detection Model
-            When in the vision_models/proximity_detection directory,
-            Enter the following line into the terminal -
-            ```
-                pip install requirements.txt
-            ```
     * #### Steps to Run Proximity Detection Model
         * #### Run Proximity Detection Model Server as a Container
             Once Docker is up and running,
