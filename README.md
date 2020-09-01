@@ -1,7 +1,6 @@
 # Hospital of the Future - Monitoring Social Distancing 
 
-These are developed containerized computer vision models for the detection of people violating health protocols. These models could be deployed on edge devices. These edge devices could either be drones or just a regular camera connected to a micro-computer
-
+These are developed containerized computer vision models for the detection of people violating health protocols.
 We built two computer vision models for the following problems:	
 
 * #### Proximity Sensing and Social Distancing :
