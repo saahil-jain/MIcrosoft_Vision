@@ -16,7 +16,7 @@ We built two computer vision models for the following problems:
 # Steps to Run Proximity detection model
 
 * ## Prerequisites :
-Download Docker on the system, iF you want to run server as a container.
+Download Docker on the system, if you want to run server as a container.
 When in the vision_models/proximity_detection directory,
 Enter the following line into the terminal
 #### pip install requirements.txt
@@ -40,7 +40,7 @@ Enter the following line into the terminal
 # Steps to Run Face Mask detection model
 
 * ## Prerequisites
-Download Docker on the system, iF you want to run server as a container.
+Download Docker on the system, if you want to run server as a container.
 When in the vision_models/face_mask_detection directory,
 Enter the following line into the terminal
 #### pip install requirements.txt
