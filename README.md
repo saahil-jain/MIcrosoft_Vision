@@ -16,50 +16,50 @@ We built two computer vision models for the following problems:
 # Steps to Run Proximity detection model
 
 * ## Prerequisites :
-Download Docker on the system, if you want to run server as a container.
-When in the vision_models/proximity_detection directory,
-Enter the following line into the terminal
-#### pip install requirements.txt
+    Download Docker on the system, if you want to run server as a container.
+    When in the vision_models/proximity_detection directory,
+    Enter the following line into the terminal
+    #### pip install requirements.txt
 
 * ## Run Server as a Container
-Once Docker is up and running,
-Open terminal in the vision_models/proximity_detection directory.
-Enter the following line into the terminal
-#### docker container run -p 5001:5001 proximity_detector
+    Once Docker is up and running,
+    Open terminal in the vision_models/proximity_detection directory.
+    Enter the following line into the terminal
+    #### docker container run -p 5001:5001 proximity_detector
 
 * ## Run Server as a Preocess
-Open terminal in the vision_models/proximity_detection/app directory.
-Enter the following line into the terminal
-#### python score.py
+    Open terminal in the vision_models/proximity_detection/app directory.
+    Enter the following line into the terminal
+    #### python score.py
 
 * ## Run Client as a Preocess
-Open terminal in the vision_models/proximity_detection directory.
-Enter the following line into the terminal
-#### python eval.py
+    Open terminal in the vision_models/proximity_detection directory.
+    Enter the following line into the terminal
+    #### python eval.py
 
 # Steps to Run Face Mask detection model
 
 * ## Prerequisites
-Download Docker on the system, if you want to run server as a container.
-When in the vision_models/face_mask_detection directory,
-Enter the following line into the terminal
-#### pip install requirements.txt
+    Download Docker on the system, if you want to run server as a container.
+    When in the vision_models/face_mask_detection directory,
+    Enter the following line into the terminal
+    #### pip install requirements.txt
 
 * ## Run Server as a Container
-Once Docker is up and running,
-Open terminal in the vision_models/face_mask_detection directory.
-Enter the following line into the terminal
-#### docker container run -p 5000:5000 mask_detector
+    Once Docker is up and running,
+    Open terminal in the vision_models/face_mask_detection directory.
+    Enter the following line into the terminal
+    #### docker container run -p 5000:5000 mask_detector
 
 * ## Run Server as a Preocess
-Open terminal in the vision_models/face_mask_detection/app directory.
-Enter the following line into the terminal
-#### python score.py
+    Open terminal in the vision_models/face_mask_detection/app directory.
+    Enter the following line into the terminal
+    #### python score.py
 
 * ## Run Client as a Preocess
-Open terminal in the vision_models/face_mask_detection directory.
-Enter the following line into the terminal
-#### python eval.py
+    Open terminal in the vision_models/face_mask_detection directory.
+    Enter the following line into the terminal
+    #### python eval.py
 
 # Contributing
 
