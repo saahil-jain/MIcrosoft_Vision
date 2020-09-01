@@ -1,78 +1,105 @@
 # Hospital of the Future - Monitoring Social Distancing 
 
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+* [Getting Started](#getting-started)
+  * [Installing Unreal Engine](#installing-unreal-engine)
+  * [Installing Visual Studio and Cloning repository](#installing-visual-studio-and-cloning-repository)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+
+## About The Project
 These are developed containerized computer vision models for the detection of people violating health protocols.
 We built two computer vision models for the following problems:	
-
 * #### Proximity Sensing and Social Distancing :
     To detect if people within the field of view are maintaining appropriate distance between each other.
 * #### Mask Compliance
     To detect if people within the field of view are wearing a face mask.
 
-# Steps to Run Proximity detection model
 
-* ## Prerequisites :
-    Download Docker on the system, if you want to run server as a container.
-    When in the vision_models/proximity_detection directory,
-    Enter the following line into the terminal -
-    ```
-        pip install requirements.txt
-    ```
+<!-- GETTING STARTED -->
+## Getting Started
+* [Download](https://www.docker.com/products/docker-desktop) Docker on the system, if you want to run server as a container.
 
-* ## Run Server as a Container
-    Once Docker is up and running,
-    Open terminal in the vision_models/proximity_detection directory.
-    Enter the following line into the terminal -
-    ```
-        docker container run -p 5001:5001 proximity_detector
-    ```
+* ### Proximity Detection Model
+    * ##### Prerequisites :
+        When in the vision_models/proximity_detection directory,
+        Enter the following line into the terminal -
+        ```
+            pip install requirements.txt
+        ```
+    * #### Steps to Train Proximity Detection Model
+        * ##### Prerequisites :
+            When in the vision_models/proximity_detection directory,
+            Enter the following line into the terminal -
+            ```
+                pip install requirements.txt
+            ```
+    * #### Steps to Run Proximity Detection Model
+        * ##### Run Server as a Container
+            Once Docker is up and running,
+            Open terminal in the vision_models/proximity_detection directory.
+            Enter the following line into the terminal -
+            ```
+                docker container run -p 5001:5001 proximity_detector
+            ```
+        * ##### Run Server as a Preocess
+            Open terminal in the vision_models/proximity_detection/app directory.
+            Enter the following line into the terminal -
+            ```
+                python score.py
+            ```
+        * ##### Run Client as a Preocess
+            Open terminal in the vision_models/proximity_detection directory.
+            Enter the following line into the terminal -
+            ```
+                python eval.py
+            ```
 
-* ## Run Server as a Preocess
-    Open terminal in the vision_models/proximity_detection/app directory.
-    Enter the following line into the terminal -
-    ```
-        python score.py
-    ```
+* #### Face Mask Detection Model
+    * ##### Prerequisites
+        When in the vision_models/face_mask_detection directory,
+        Enter the following line into the terminal -
+        ```
+            pip install requirements.txt
+        ```
+    * #### Steps to Train Face Mask Detection Model
+        * ##### Prerequisites
+            When in the vision_models/face_mask_detection directory,
+            Enter the following line into the terminal -
+            ```
+                python train.py
+            ```
+    * #### Steps to Run Face Mask Detection Model
+        * ##### Run Server as a Container
+            Once Docker is up and running,
+            Open terminal in the vision_models/face_mask_detection directory.
+            Enter the following line into the terminal -
+            ```
+                docker container run -p 5000:5000 mask_detector
+            ```
+        * ##### Run Server as a Preocess
+            Open terminal in the vision_models/face_mask_detection/app directory.
+            Enter the following line into the terminal -
+            ```
+                python score.py
+            ```
+        * ##### Run Client as a Preocess
+            Open terminal in the vision_models/face_mask_detection directory.
+            Enter the following line into the terminal -
+            ```
+                python eval.py
+            ```
 
-* ## Run Client as a Preocess
-    Open terminal in the vision_models/proximity_detection directory.
-    Enter the following line into the terminal -
-    ```
-        python eval.py
-    ```
-
-# Steps to Run Face Mask detection model
-
-* ## Prerequisites
-    Download Docker on the system, if you want to run server as a container.
-    When in the vision_models/face_mask_detection directory,
-    Enter the following line into the terminal -
-    ```
-        pip install requirements.txt
-    ```
-
-* ## Run Server as a Container
-    Once Docker is up and running,
-    Open terminal in the vision_models/face_mask_detection directory.
-    Enter the following line into the terminal -
-    ```
-        docker container run -p 5000:5000 mask_detector
-    ```
-
-* ## Run Server as a Preocess
-    Open terminal in the vision_models/face_mask_detection/app directory.
-    Enter the following line into the terminal -
-    ```
-        python score.py
-    ```
-
-* ## Run Client as a Preocess
-    Open terminal in the vision_models/face_mask_detection directory.
-    Enter the following line into the terminal -
-    ```
-        python eval.py
-    ```
-
-# Contributing
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
