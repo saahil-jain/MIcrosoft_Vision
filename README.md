@@ -38,7 +38,7 @@ These are developed containerized computer vision models for the detection of pe
 We built two computer vision models for the following problems:	
 * #### Proximity Sensing and Social Distancing :
     To detect if people within the field of view are maintaining appropriate distance between each other.
-* #### Mask Compliance
+* #### Mask Compliance :
     To detect if people within the field of view are wearing a face mask.
 
 
@@ -48,20 +48,20 @@ We built two computer vision models for the following problems:
     [Download](https://www.docker.com/products/docker-desktop) Docker on the system, if you want to run models in a container.
 
 * ### Proximity Detection Model
-    * #### Prerequisites for Proximity Detection Model :
+    * #### Prerequisites for Proximity Detection Model
         When in the vision_models/proximity_detection directory,
         Enter the following line into the terminal -
         ```
             pip install requirements.txt
         ```
     * #### Steps to Train Proximity Detection Model
-        * #### Setting Up Data for Proximity Detection Model:
+        * #### Setting Up Data for Proximity Detection Model
             When in the vision_models/proximity_detection directory,
             Enter the following line into the terminal -
             ```
                 pip install requirements.txt
             ```
-        * #### Training Proximity Detection Model:
+        * #### Training Proximity Detection Model
             When in the vision_models/proximity_detection directory,
             Enter the following line into the terminal -
             ```
@@ -96,7 +96,7 @@ We built two computer vision models for the following problems:
             pip install requirements.txt
         ```
     * #### Steps to Train Face Mask Detection Model
-        * #### Setting Up Data for Face Mask Detection Model:
+        * #### Setting Up Data for Face Mask Detection Model
             When in the vision_models/proximity_detection directory,
             Enter the following line into the terminal -
             ```
