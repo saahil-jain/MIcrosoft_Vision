@@ -15,7 +15,7 @@
     * [Steps to Run Proximity Detection Model](#steps-to-run-proximity-detection-model)
         * [Run Proximity Detection Model Server as a Container](#run-proximity-detection-model-server-as-a-container)
         * [Run Proximity Detection Model Server as a Process](#run-proximity-detection-model-server-as-a-process)
-        * [Run Proximity Detection Model Client as a Preocess](#run-proximity-detection-model-client-as-a-preocess)
+        * [Run Proximity Detection Model Client as a Preocess](#run-proximity-detection-model-client-as-a-process)
   * [Face Mask Detection Model](#face-mask-detection-model)
     * [Prerequisites for Face Mask Detection Model](#prerequisites-for-face-mask-detection-model)
     * [Steps to Train Face Mask Detection Model](#steps-to-train-face-mask-detection-model)
@@ -24,7 +24,7 @@
     * [Steps to Run Face Mask Detection Model](#steps-to-run-face-mask-detection-model)
         * [Run Face Mask Detection Model Server as a Container](#run-face-mask-detection-model-server-as-a-container)
         * [Run Face Mask Detection Model Server as a Process](#run-face-mask-detection-model-server-as-a-process)
-        * [Run Face Mask Detection Model Client as a Preocess](#run-face-mask-detection-model-client-as-a-preocess)
+        * [Run Face Mask Detection Model Client as a Preocess](#run-face-mask-detection-model-client-as-a-process)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -81,7 +81,7 @@ We built two computer vision models for the following problems:
             ```
                 python score.py
             ```
-        * #### Run Proximity Detection Model Client as a Preocess
+        * #### Run Proximity Detection Model Client as a Process
             Open terminal in the vision_models/proximity_detection directory.
             Enter the following line into the terminal -
             ```
@@ -122,7 +122,7 @@ We built two computer vision models for the following problems:
             ```
                 python score.py
             ```
-        * #### Run Face Mask Detection Model Client as a Preocess
+        * #### Run Face Mask Detection Model Client as a Process
             Open terminal in the vision_models/face_mask_detection directory.
             Enter the following line into the terminal -
             ```
