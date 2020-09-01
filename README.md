@@ -6,8 +6,9 @@
 
 * [About the Project](#about-the-project)
 * [Getting Started](#getting-started)
-  * [Installing Unreal Engine](#installing-unreal-engine)
-  * [Installing Visual Studio and Cloning repository](#installing-visual-studio-and-cloning-repository)
+  * [Installing Unreal Engine](#Download)
+  * [Installing Visual Studio and Cloning repository](#proximity-detection-model)
+  * [Installing Unreal Engine](#face-mask-detection-model)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -27,7 +28,7 @@ We built two computer vision models for the following problems:
 
 <!-- GETTING STARTED -->
 ## Getting Started
-* [Download](https://www.docker.com/products/docker-desktop) Docker on the system, if you want to run server as a container.
+* [Download](https://www.docker.com/products/docker-desktop) Docker on the system, if you want to run models in a container.
 
 * ### Proximity Detection Model
     * #### Prerequisites :
