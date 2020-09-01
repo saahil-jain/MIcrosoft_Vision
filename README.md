@@ -59,7 +59,9 @@ We built two computer vision models for the following problems:
 * ## Run Client as a Preocess
     Open terminal in the vision_models/face_mask_detection directory.
     Enter the following line into the terminal -
-    #### python eval.py
+    ```
+        python eval.py
+    ```
 
 # Contributing
 
