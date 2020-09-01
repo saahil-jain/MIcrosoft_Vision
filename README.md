@@ -8,7 +8,7 @@ These are developed containerized computer vision models for the detection of pe
 
 We built two computer vision models for the following problems:	
 
-* Proximity Sensing and Social Distancing
+* Proximity Sensing and Social Distancing \n
     To detect if people within the field of view are maintaining appropriate distance between each other.
 * Mask Compliance
     To detect if people within the field of view are wearing a face mask.
