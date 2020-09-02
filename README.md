@@ -29,13 +29,15 @@ These are developed containerized computer vision models for the detection of pe
 We built two computer vision models for the following problems:	
 * #### Proximity Sensing and Social Distancing :
     To detect if people within the field of view are maintaining appropriate distance between each other.
-    Our model uses OpenCV with a prebuilt MobilenetSSD model to detect all the people in the field of view.
-    We monitor the Euclidean distance of the centroids of each person within the frame.
-    To deal with depth elevating the camera to a height proved to be the best solution as depth gets filtered out onto the 2D image view.
+    * #### Solution
+        Our model uses OpenCV with a prebuilt MobilenetSSD model to detect all the people in the field of view.
+        We monitor the Euclidean distance of the centroids of each person within the frame.
+        To deal with depth elevating the camera to a height proved to be the best solution as depth gets filtered out onto the 2D image view.
 
 * #### Mask Compliance :
     To detect if people within the field of view are wearing a face mask.
-    Here we built an image pipeline, where faces were detected and extracted from an image using an OpenCV pertained caffe model. Each of these faces were passed through our model which detected whether everyone was wearing a face mask or not.
+    * #### Solution
+        Here we built an image pipeline, where faces were detected and extracted from an image using an OpenCV pertained caffe model. Each of these faces were passed through our model which detected whether everyone was wearing a face mask or not.
 
 
 <!-- GETTING STARTED -->
