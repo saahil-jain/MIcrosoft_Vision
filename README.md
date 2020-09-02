@@ -82,11 +82,9 @@ We built two computer vision models for the following problems:
         ```
     * #### Steps to Train Face Mask Detection Model
         * #### Setting Up Data for Face Mask Detection Model
-            When in the vision_models/proximity_detection directory,
-            Enter the following line into the terminal -
-            ```
-                pip install requirements.txt
-            ```
+            When you open Microsoft_Vision/face_mask_detection/dataset
+            you will see two folders labelled as with_mask and without_mask,
+            you can add more data to these folders to improvise training.
         * #### Training Face Mask Detection Model
             When in the vision_models/face_mask_detection directory,
             Enter the following line into the terminal -
