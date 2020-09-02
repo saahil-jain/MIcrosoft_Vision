@@ -22,7 +22,7 @@
         * [Run Face Mask Detection Model Server as a Container](#run-face-mask-detection-model-server-as-a-container)
         * [Run Face Mask Detection Model Server as a Process](#run-face-mask-detection-model-server-as-a-process)
         * [Run Face Mask Detection Model Client as a Process](#run-face-mask-detection-model-client-as-a-process) -->
-* [Contributing](#contributing)
+* [Eventual Impact](#eventual-impact)
 
 ## About The Project
 These are developed containerized computer vision models for the detection of people violating health protocols.
@@ -112,16 +112,6 @@ We built two computer vision models for the following problems:
                 python eval.py
             ```
 
-## Contributing
+## Eventual Impact
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+These models could be deployed at various public places to help enforce health protocols. This can help to curb the spread of various diseases.
