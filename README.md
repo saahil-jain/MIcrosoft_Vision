@@ -27,8 +27,6 @@
 ## About The Project
 These are developed containerized computer vision models for the detection of people violating health protocols.
 
-![social_distancing](Images/social_distancing.jpg)
-
 We built two computer vision models for the following problems:	
 * #### Proximity Sensing and Social Distancing :
     To detect if people within the field of view are maintaining appropriate distance between each other.
@@ -42,6 +40,7 @@ We built two computer vision models for the following problems:
     * #### Proposed Solution
         Here we built an image pipeline, where faces were detected and extracted from an image using an OpenCV pertained caffe model. Each of these faces were passed through our model which detected whether everyone was wearing a face mask or not.
 
+![social_distancing](Images/social_distancing.jpg)
 
 <!-- GETTING STARTED -->
 ## Setup
