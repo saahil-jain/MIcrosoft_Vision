@@ -6,14 +6,14 @@
 
 * [About the Project](#about-the-project)
 * [Getting Started](#getting-started)
-  * [Downloading Docker](#downloading-docker)
-  * [Proximity Detection Model](#proximity-detection-model)
+  1. [Downloading Docker](#downloading-docker)
+  2. [Proximity Detection Model](#proximity-detection-model)
     * [Prerequisites for Proximity Detection Model](#prerequisites-for-proximity-detection-model)
     * [Steps to Run Proximity Detection Model](#steps-to-run-proximity-detection-model)
         * [Run Proximity Detection Model Server as a Container](#run-proximity-detection-model-server-as-a-container)
         * [Run Proximity Detection Model Server as a Process](#run-proximity-detection-model-server-as-a-process)
         * [Run Proximity Detection Model Client as a Process](#run-proximity-detection-model-client-as-a-process)
-  * [Face Mask Detection Model](#face-mask-detection-model)
+  3. [Face Mask Detection Model](#face-mask-detection-model)
     * [Prerequisites for Face Mask Detection Model](#prerequisites-for-face-mask-detection-model)
     * [Steps to Train Face Mask Detection Model](#steps-to-train-face-mask-detection-model)
         * [Setting Up Data for Face Mask Detection Model](#setting-up-data-for-face-mask-detection-model)
@@ -22,13 +22,7 @@
         * [Run Face Mask Detection Model Server as a Container](#run-face-mask-detection-model-server-as-a-container)
         * [Run Face Mask Detection Model Server as a Process](#run-face-mask-detection-model-server-as-a-process)
         * [Run Face Mask Detection Model Client as a Process](#run-face-mask-detection-model-client-as-a-process)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
 
 ## About The Project
 These are developed containerized computer vision models for the detection of people violating health protocols.
