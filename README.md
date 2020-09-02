@@ -114,4 +114,4 @@ We built two computer vision models for the following problems:
 
 ## Eventual Impact
 
-These models could be deployed on any smart camera at public places to help enforce healthcare protocols and safety standards. This inturn can help curb the spread of various contagious diseases like COVID-19.
+These models could be deployed on any smart camera at public places to help enforce healthcare protocols and safety standards. This in turn can help curb the spread of various contagious diseases like COVID-19.
