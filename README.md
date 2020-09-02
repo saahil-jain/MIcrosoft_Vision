@@ -5,21 +5,21 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Getting Started](#getting-started)
-  1. [Downloading Docker](#downloading-docker)
+* [Setup](#setup)
+  1. [Download Docker](#download-docker)
   2. [Proximity Detection Model](#proximity-detection-model)
-    * [Prerequisites for Proximity Detection Model](#prerequisites-for-proximity-detection-model)
+    <!-- * [Prerequisites for Proximity Detection Model](#prerequisites-for-proximity-detection-model)
     * [Steps to Run Proximity Detection Model](#steps-to-run-proximity-detection-model)
-        <!-- * [Run Proximity Detection Model Server as a Container](#run-proximity-detection-model-server-as-a-container)
+        * [Run Proximity Detection Model Server as a Container](#run-proximity-detection-model-server-as-a-container)
         * [Run Proximity Detection Model Server as a Process](#run-proximity-detection-model-server-as-a-process)
         * [Run Proximity Detection Model Client as a Process](#run-proximity-detection-model-client-as-a-process) -->
   3. [Face Mask Detection Model](#face-mask-detection-model)
-    * [Prerequisites for Face Mask Detection Model](#prerequisites-for-face-mask-detection-model)
+    <!-- * [Prerequisites for Face Mask Detection Model](#prerequisites-for-face-mask-detection-model)
     * [Steps to Train Face Mask Detection Model](#steps-to-train-face-mask-detection-model)
-        <!-- * [Setting Up Data for Face Mask Detection Model](#setting-up-data-for-face-mask-detection-model)
-        * [Training Face Mask Detection Model](#training-face-mask-detection-model) -->
+        * [Setting Up Data for Face Mask Detection Model](#setting-up-data-for-face-mask-detection-model)
+        * [Training Face Mask Detection Model](#training-face-mask-detection-model)
     * [Steps to Run Face Mask Detection Model](#steps-to-run-face-mask-detection-model)
-        <!-- * [Run Face Mask Detection Model Server as a Container](#run-face-mask-detection-model-server-as-a-container)
+        * [Run Face Mask Detection Model Server as a Container](#run-face-mask-detection-model-server-as-a-container)
         * [Run Face Mask Detection Model Server as a Process](#run-face-mask-detection-model-server-as-a-process)
         * [Run Face Mask Detection Model Client as a Process](#run-face-mask-detection-model-client-as-a-process) -->
 * [Contributing](#contributing)
@@ -41,8 +41,8 @@ We built two computer vision models for the following problems:
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-* ### Downloading Docker
+## Setup
+* ### Download Docker
     [Download](https://www.docker.com/products/docker-desktop) Docker on the system, if you want to run models in a container.
 
 * ### Proximity Detection Model
