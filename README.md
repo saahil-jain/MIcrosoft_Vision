@@ -26,6 +26,9 @@
 
 ## About The Project
 These are developed containerized computer vision models for the detection of people violating health protocols.
+
+![social_distancing](Images/social_distancing.jpg)
+
 We built two computer vision models for the following problems:	
 * #### Proximity Sensing and Social Distancing :
     To detect if people within the field of view are maintaining appropriate distance between each other.
