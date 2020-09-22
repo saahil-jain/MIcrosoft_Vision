@@ -54,7 +54,7 @@ We built two computer vision models for the following problems:
         Here we built an image pipeline, where faces were detected and extracted from an image using an OpenCV pertained caffe model. Each of these faces were passed through our model which detected whether everyone was wearing a face mask or not.
 
 <p align="center">
-    <img src="Images/face_mask.png" width="600" height="360">
+    <img src="Images/face_mask.png" width="347" height="195">
 </p>
 
 
