@@ -48,6 +48,7 @@ We built two computer vision models for the following problems:
     To detect if people within the field of view are wearing a face mask.
     * #### Proposed Solution
         Here we built an image pipeline, where faces were detected and extracted from an image using an OpenCV pertained caffe model. Each of these faces were passed through our model which detected whether everyone was wearing a face mask or not.
+        
 ![face_mask](Images/face_mask.png)
 
 
