@@ -4,14 +4,11 @@
     <img src="Images/logo.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">Computer Vision</h3>
-  <br />
 
   <p align="center">
     Using Computer Vision to enforce Social distancing
   </p>
 </p>
-
-<br>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
