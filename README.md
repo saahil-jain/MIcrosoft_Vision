@@ -43,17 +43,19 @@ We built two computer vision models for the following problems:
         Our model uses OpenCV with a prebuilt MobilenetSSD model to detect all the people in the field of view.
         We monitor the Euclidean distance of the centroids of each person within the frame.
         To deal with depth elevating the camera to a height proved to be the best solution as depth gets filtered out onto the 2D image view.
-<!-- ![social_distancing](Images/social_distancing.jpg) -->
 
 <p align="center">
-    <img src="Images/social_distancing.jpg" width="400" height="260">
+    <img src="Images/social_distancing.jpg" width="600" height="390">
 </p>
+
 * #### Mask Compliance :
     To detect if people within the field of view are wearing a face mask.
     * #### Proposed Solution
         Here we built an image pipeline, where faces were detected and extracted from an image using an OpenCV pertained caffe model. Each of these faces were passed through our model which detected whether everyone was wearing a face mask or not.
 
-![face_mask](Images/face_mask.png)
+<p align="center">
+    <img src="Images/face_mask.png" width="600" height="360">
+</p>
 
 
 <!-- GETTING STARTED -->
