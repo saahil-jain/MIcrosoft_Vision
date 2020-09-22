@@ -1,12 +1,7 @@
 # Hospital of the Future - Monitoring Social Distancing 
 
-<br />
-<p align="center">
-    <img src="img/logo.png" alt="Logo" >
-</p>
 <p align="center">
     <img src="Images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">Computer Vision</h3>
   <br />
