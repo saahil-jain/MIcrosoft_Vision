@@ -45,7 +45,7 @@ We built two computer vision models for the following problems:
         To deal with depth elevating the camera to a height proved to be the best solution as depth gets filtered out onto the 2D image view.
 
 <p align="center">
-    <img src="Images/social_distancing.jpg" width="600" height="260">
+    <img src="Images/social_distancing.jpg" width="600" height="360">
 </p>
 
 * #### Mask Compliance :
