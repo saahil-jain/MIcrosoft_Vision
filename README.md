@@ -1,5 +1,23 @@
 # Hospital of the Future - Monitoring Social Distancing 
 
+<br />
+<p align="center">
+    <img src="img/logo.png" alt="Logo" >
+  </a>
+</p>
+<p align="center">
+    <img src="Images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Computer Vision</h3>
+  <br />
+
+  <p align="center">
+    Using Computer Vision to enforce Social distancing
+  </p>
+</p>
+
+<br>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -34,13 +52,13 @@ We built two computer vision models for the following problems:
         Our model uses OpenCV with a prebuilt MobilenetSSD model to detect all the people in the field of view.
         We monitor the Euclidean distance of the centroids of each person within the frame.
         To deal with depth elevating the camera to a height proved to be the best solution as depth gets filtered out onto the 2D image view.
-
+    ![social_distancing](Images/social_distancing.jpg)
 * #### Mask Compliance :
     To detect if people within the field of view are wearing a face mask.
     * #### Proposed Solution
         Here we built an image pipeline, where faces were detected and extracted from an image using an OpenCV pertained caffe model. Each of these faces were passed through our model which detected whether everyone was wearing a face mask or not.
+    ![face_mask](Images/face_mask.jpg)
 
-![social_distancing](Images/social_distancing.jpg)
 
 <!-- GETTING STARTED -->
 ## Setup
