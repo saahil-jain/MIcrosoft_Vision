@@ -3,7 +3,6 @@
 <br />
 <p align="center">
     <img src="img/logo.png" alt="Logo" >
-  </a>
 </p>
 <p align="center">
     <img src="Images/logo.png" alt="Logo" width="80" height="80">
