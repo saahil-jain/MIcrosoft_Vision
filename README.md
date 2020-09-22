@@ -134,3 +134,12 @@ We built two computer vision models for the following problems:
 ## Eventual Impact
 
 These models could be deployed on any smart camera at public places to help enforce healthcare protocols and safety standards. This in turn can help curb the spread of various contagious diseases like COVID-19.
+
+
+## Demo Videos
+* ### Proximity Detection:
+[![proximity](http://img.youtube.com/vi/Tiz2aNBoUJI/0.jpg)](https://youtu.be/Tiz2aNBoUJI) 
+* ### Face Mask Detection:
+[![proximity](https://img.youtube.com/vi/eO2n-YhcejI/0.jpg)](https://youtu.be/eO2n-YhcejI) 
+
+<!-- https://www.google.com/url?sa=i&url=https%3A%2F%2Fhackernoon.com%2Fthe-interface-becomes-everything-19e9c27d525c&psig=AOvVaw2bsu5ioBfUURNeA6ZBnw3r&ust=1600888788709000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCJiS58y9_esCFQAAAAAdAAAAABAD -->
