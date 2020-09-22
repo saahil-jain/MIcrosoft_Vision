@@ -32,6 +32,7 @@
         * [Run Face Mask Detection Model Server as a Process](#run-face-mask-detection-model-server-as-a-process)
         * [Run Face Mask Detection Model Client as a Process](#run-face-mask-detection-model-client-as-a-process) -->
 * [Eventual Impact](#eventual-impact)
+* [Demo Videos](#demo-videos)
 
 ## About The Project
 These are developed containerized computer vision models for the detection of people violating health protocols.
