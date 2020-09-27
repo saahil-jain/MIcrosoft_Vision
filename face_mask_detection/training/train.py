@@ -23,7 +23,7 @@ import cv2
 import os
 
 INIT_LR = 1e-4
-EPOCHS = 10
+EPOCHS = 3
 BS = 32
 image_dimension = 200
 
