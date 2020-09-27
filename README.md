@@ -102,11 +102,11 @@ We built two computer vision models for the following problems:
         ```
     * #### Steps to Train Face Mask Detection Model
         * #### Setting Up Data for Face Mask Detection Model
-            When you open Microsoft_Vision/face_mask_detection/dataset
+            When you open Microsoft_Vision/face_mask_detection/training/dataset
             you will see two folders labelled as with_mask and without_mask,
             you can add more data to these folders to improvise training.
         * #### Training Face Mask Detection Model
-            When in the Microsoft_Vision/face_mask_detection directory,
+            When in the Microsoft_Vision/face_mask_detection/training directory,
             Enter the following line into the terminal -
             ```
                 python train.py
