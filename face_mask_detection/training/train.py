@@ -104,10 +104,10 @@ plt.legend(loc="lower left")
 
 print("[INFO] saving maskNet model...")
 os.makedirs('./outputs/model', exist_ok = True)
-maskNet_path = "./outputs/model/maskNet_model.h5"
+maskNet_path = "../app/Models/maskNet_model.h5"
 maskNet.save(maskNet_path)
 
 print("[INFO] saving graph...")
 os.makedirs("./images", exist_ok = True)
-plot_path = "./images/plot.png"
+plot_path = "./training_curve.png"
 plt.savefig(plot_path)
