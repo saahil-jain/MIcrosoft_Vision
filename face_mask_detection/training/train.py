@@ -15,6 +15,7 @@ from sklearn.metrics import classification_report
 from sklearn.preprocessing import LabelBinarizer
 from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
+from imutils import paths
 import numpy as np
 import argparse
 import pickle
